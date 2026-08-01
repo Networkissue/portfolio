@@ -6,8 +6,9 @@ const certifications = [
     title: 'HIPAA Workforce Proficiency Certification',
     year: '2026',
     issuer: '4MedPlus Training',
-    description:
-      'Comprehensive HIPAA compliance training covering healthcare data privacy, security regulations, and workforce proficiency requirements for healthcare applications.',
+    // description:
+    //   'Comprehensive HIPAA compliance training covering healthcare data privacy, security regulations, and workforce proficiency requirements for healthcare applications.',
+    description: 'Credential ID 1775735789747',
     // TODO: replace with the hosted path to your own certificate PDF,
     // e.g. place the file in artifacts/portfolio/public/certificates/
     // and reference it as "/certificates/your-file.pdf"
