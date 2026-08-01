@@ -13,6 +13,41 @@ const certifications = [
     // and reference it as "/certificates/your-file.pdf"
     url: 'https://drive.google.com/file/d/1EU3skDGmedpa3xa0ZsbE45qA-M4mCcmt/view?usp=drive_link',
   },
+  {
+    title: 'Hands-On Essentials: Data Engineering Workshop',
+    year: '2024',
+    issuer: 'Snowflake',
+    description: 'Credential ID 112808930',
+    url: 'https://achieve.snowflake.com/9d84bde8-1264-4498-80fa-9104726c707a',
+  },
+  {
+    title: 'Hands-On Essentials: Data Lake Workshop',
+    year: '2024',
+    issuer: 'Snowflake',
+    description: 'Credential ID 112694404',
+    url: 'https://achieve.snowflake.com/7023d520-5fa6-44a4-9b92-41aa855b21dd',
+  },
+  {
+    title: 'Hands-On Essentials: Data Application Builders Workshop',
+    year: '2024',
+    issuer: 'Snowflake',
+    description: 'Credential ID 11247774',
+    url: 'https://achieve.snowflake.com/9dbc2ae1-4d11-4db2-ac89-2360615656cb',
+  },
+  {
+    title: 'Hands-On Essentials: Collaboration, Marketplace & Cost Estimation Workshop',
+    year: '2024',
+    issuer: 'Snowflake',
+    description: 'Credential ID 111919888',
+    url: 'https://achieve.snowflake.com/bb787d3e-0b91-4048-8e19-2a3427a2622b',
+  },
+  {
+    title: 'Data Warehousing Workshop Hands-On Essentials',
+    year: '2024',
+    issuer: 'Snowflake',
+    description: 'Credential ID 111641901',
+    url: 'https://achieve.snowflake.com/75806af7-7aa4-49fc-afee-84bfea21e225',
+  },
 ];
 
 export function Certifications() {
@@ -35,7 +70,7 @@ export function Certifications() {
             <span className="text-primary">CERTIFICATIONS</span>
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {certifications.map((cert, idx) => (
               <motion.div
                 key={cert.title}
