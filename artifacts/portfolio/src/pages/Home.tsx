@@ -5,6 +5,7 @@ import { Skills } from '@/components/sections/Skills';
 import { Experience } from '@/components/sections/Experience';
 import { DomainExpertise } from '@/components/sections/DomainExpertise';
 import { Education } from '@/components/sections/Education';
+import { Certifications } from '@/components/sections/Certifications';
 import { Contact } from '@/components/sections/Contact';
 
 export default function Home() {
@@ -23,6 +24,8 @@ export default function Home() {
         <DomainExpertise />
         <hr className="border-[#3F3F46]" />
         <Education />
+        <hr className="border-[#3F3F46]" />
+        <Certifications />
         <hr className="border-[#3F3F46]" />
         <Contact />
       </main>

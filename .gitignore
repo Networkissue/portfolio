@@ -47,3 +47,5 @@ Thumbs.db
 # Replit
 .cache/
 .local/
+
+# locally: export PORT=5173 export BASE_PATH=/ pnpm --filter @workspace/portfolio run dev

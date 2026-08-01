@@ -15,10 +15,11 @@ export function Navbar() {
 
   const links = [
     { name: 'profile', href: '#about' },
-    { name: 'skills', href: '#skills' },
+    { name: 'SKILLS', href: '#skills' },
     { name: 'work', href: '#experience' },
     { name: 'domains', href: '#expertise' },
-    { name: 'education', href: '#education' }
+    { name: 'education', href: '#education' },
+    { name: 'certifications', href: '#certifications' }
   ];
 
   return (
